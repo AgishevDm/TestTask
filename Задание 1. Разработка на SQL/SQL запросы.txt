@@ -1,0 +1,18 @@
+--Запрос 1
+
+SELECT CONCAT (surname,' ',name) as FIO, sum(Quantity) as count_quantity
+from sellers join sales on sellers.ID=sales.IDSel
+where date BETWEEN '20131001' AND '20131007' 
+GROUP BY name,surname order by FIO
+
+
+--Запрос 2
+
+SELECT   table1.product_name,table1.FIO,(sum(table1.Quantity)/sum(table1.Quantity) over (partition by product_name)*100/count(*)) as percent_sales from
+(SELECT DISTINCT products.name as product_name, CONCAT (surname,' ',sellers.name) as FIO, sales.id, sales.Quantity 
+from sellers join sales on sellers.ID=sales.IDSel
+join Products on sales.IDProd=Products.ID
+join  Arrivals on arrivals.IDProd=products.ID 
+where sales.date BETWEEN '20131001' AND '20131007' and arrivals.Date BETWEEN '20130907' and '20131007'
+group by products.name,sellers.name,surname,sales.id,sales.Quantity ) as table1 
+group by table1.product_name,table1.FIO,table1.Quantity order by table1.product_name,FIO

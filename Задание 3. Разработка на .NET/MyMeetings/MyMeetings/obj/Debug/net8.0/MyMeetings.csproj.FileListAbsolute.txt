@@ -1,0 +1,14 @@
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.AssemblyInfo.cs
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\bin\Debug\net8.0\MyMeetings.exe
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\bin\Debug\net8.0\MyMeetings.deps.json
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\bin\Debug\net8.0\MyMeetings.runtimeconfig.json
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\bin\Debug\net8.0\MyMeetings.dll
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\bin\Debug\net8.0\MyMeetings.pdb
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.dll
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\refint\MyMeetings.dll
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.pdb
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\MyMeetings.genruntimeconfig.cache
+C:\Users\Дмитрий\Documents\test\CRM\MyMeetings\MyMeetings\obj\Debug\net8.0\ref\MyMeetings.dll
